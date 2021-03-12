@@ -1,0 +1,175 @@
+body {
+  background-color: rgb(46, 46, 46);
+  margin: 0;
+}
+img {
+  max-width: 80%;
+  align-content: center;
+  margin-top: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 5px 5px #171717;
+}
+h1 {
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2,
+footer {
+  text-align: center;
+  color: wheat;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+  text-align: justify;
+  padding: 3px;
+}
+abbr[title] {
+  text-decoration: none;
+  color: wheat;
+}
+.header_div {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 200px;
+}
+.text {
+  color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content_div {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  height: 500px;
+}
+.question_div {
+  margin: 7px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px #171717;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#ig_acc {
+  margin-top: 5px;
+  text-align: center;
+  color: wheat;
+}
+p > span {
+  color: rgb(24, 135, 240);
+}
+a {
+  color: white;
+}
+a:visited {
+  color: wheat;
+}
+#back_btn {
+  margin-bottom: 10px;
+  font-size: 16pt;
+  background-color: wheat;
+  border: none;
+  border-radius: 5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  height: 50px;
+  width: 100px;
+}
+
+.answer_key {
+  text-align: right;
+  color: gray;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.btn {
+  font-size: 16pt;
+  background-color: wheat;
+  border: none;
+  border-radius: 5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 50px;
+  width: 100px;
+  margin-right: 20px;
+}
+
+#question {
+  width: 80%;
+}
+
+.field {
+  font-size: 16pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 5px;
+}
+
+label {
+  font-size: 16pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: red;
+}
+
+textarea {
+  border: none;
+  background-color: wheat;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#add_btn,
+#submit_btn,
+#save_btn,
+#delete_btn {
+  font-size: 16pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #18c95f;
+  border: none;
+  border-radius: 5%;
+  margin: 7px;
+  height: 50px;
+  color: white;
+}
+
+#save_btn, #submit_btn {
+  background-color: #1888c9;
+}
+
+#delete_btn {
+  background-color: #c91818;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .content_div {
+    display: block;
+  }
+  img {
+    grid-area: 1;
+    object-fit: contain;
+  }
+  .section {
+    grid-area: 2;
+  }
+  .question_div {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
