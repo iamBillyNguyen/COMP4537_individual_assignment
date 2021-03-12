@@ -1,0 +1,18 @@
+#es_3, #es_4 {
+    display: flex;
+}
+
+.delete_choice {
+    margin-left: 5px;
+}
+
+.msg {
+    font-size: 13pt;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
